@@ -5,6 +5,7 @@ kafkaToolBox is based on segmentio/kafka-go package and provides :
 - consumer :  Simple Kafka consumer 
 
 ## Build and deploy 
+- To quickly deploy a Kafka cluster : https://github.com/PierreKieffer/docker-kafka-cluster
 - Set the config.json file with your own settings 
 - Build an application : 
 	
