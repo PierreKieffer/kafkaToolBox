@@ -5,11 +5,24 @@ kafkaToolBox provides
 - consumer :  Simple Kafka consumer 
 
 ## Build and deploy 
-- set the config file with your own settings 
-- For each application : go build . 
-- ./producer-api /path/config.json
+- Set the config.json file with your own settings 
+- Build an application : 
+	
+	`go build . `
+	
+- producer-api : 
+	- Deploy : 
+	
+	`./producer-api /path/config.json`
+	
+	- Post a message :   	
+	
 	`curl -i http://localhost:8080/producer -X POST -d '{"message":"Here we go !"}' -H  "Authorization: Bearer token"`
-- ./consumer /path/config.json
+	
+- consumer : 
+	- Deploy : 
+	
+	`./consumer /path/config.json`
 
 
 
