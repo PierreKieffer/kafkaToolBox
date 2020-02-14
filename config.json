@@ -1,0 +1,6 @@
+{
+	"KafkaBrokers" : "localhost:9091",
+	"KafkaTopic" : "topicTest",
+	"KafkaConsumerGroupId" : "consumer-1",
+	"Secret" : "token"
+}
