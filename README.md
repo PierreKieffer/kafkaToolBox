@@ -1,6 +1,6 @@
 # kafkaToolBox 
 
-kafkaToolBox provides
+kafkaToolBox is based on segmentio/kafka-go package and provides : 
 - producer-api : Simple API allowing data ingestion and pushing messages to Kafka 
 - consumer :  Simple Kafka consumer 
 
